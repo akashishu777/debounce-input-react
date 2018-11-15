@@ -6,13 +6,13 @@ import * as React from 'react';
 
 interface PropConstraints<T> {
   readonly value?: string | number;
-  readonly onChange: React.ChangeEventHandler<T>;
+  readonly onInput: React.ChangeEventHandler<T>;
 }
 
 export type DebounceInputProps<WrappedComponent, WrappedComponentProps> = WrappedComponentProps & {
   readonly element?: string | React.ComponentType<PropConstraints<WrappedComponent>>;
   readonly type?: string;
-  readonly onChange: React.ChangeEventHandler<WrappedComponent>;
+  readonly onInput: React.ChangeEventHandler<WrappedComponent>;
   readonly onKeyDown?: React.KeyboardEventHandler<WrappedComponent>;
   readonly onBlur?: React.FocusEventHandler<WrappedComponent>;
   readonly value?: string | number;
