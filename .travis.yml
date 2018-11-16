@@ -1,4 +1,10 @@
-language: node_js
-
+sudo:          false
+language:      node_js
+node_js:
+  - "node"
+install:       npm install
 script:
-  - npm run build:single
+  - npm run build
+cache:
+  directories:
+    - node_modules
