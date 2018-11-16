@@ -1,1 +1,1 @@
-# react-debounce-input
+# react-debounce-input [![Build Status](https://travis-ci.com/akashishu777/debounce-input-react.svg?branch=master)](https://travis-ci.com/akashishu777/debounce-input-react)
