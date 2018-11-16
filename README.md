@@ -1,4 +1,4 @@
-# debounce-input-reat &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/akashishu777/debounce-input-react/blob/master/LICENSE) [![Build Status](https://travis-ci.com/akashishu777/debounce-input-react.svg?branch=master)](https://travis-ci.com/akashishu777/debounce-input-react) [![npm version](https://img.shields.io/badge/npm-v1.1.0-blue.svg)](https://www.npmjs.com/package/debounce-input-react)
+# debounce-input-react &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/akashishu777/debounce-input-react/blob/master/LICENSE) [![Build Status](https://travis-ci.com/akashishu777/debounce-input-react.svg?branch=master)](https://travis-ci.com/akashishu777/debounce-input-react) [![npm version](https://img.shields.io/badge/npm-v1.1.0-blue.svg)](https://www.npmjs.com/package/debounce-input-react)
 
 
 
