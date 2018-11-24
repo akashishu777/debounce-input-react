@@ -31,7 +31,7 @@ export class Ref extends React.Component {
           inputRef={ref => {
             this.ref = ref;
           }}
-          onChange={e => this.setState({value: e.target.value})}
+          onInput={e => this.setState({value: e.target.value})}
           onKeyDown={e => this.setState({key: e.key})} />
         <p>Value: {value}</p>
         <p>Key pressed: {key}</p>

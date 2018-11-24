@@ -91,7 +91,7 @@ export class Textarea extends React.Component {
           forceNotifyOnBlur={forceNotifyOnBlur}
           minLength={minLength}
           debounceTimeout={infinite ? -1 : debounceTimeout}
-          onChange={e => this.setState({value: e.target.value})}
+          onInput={e => this.setState({value: e.target.value})}
           onKeyDown={e => this.setState({key: e.key})} />
         <p>Value: {value}</p>
         <p>Key pressed: {key}</p>

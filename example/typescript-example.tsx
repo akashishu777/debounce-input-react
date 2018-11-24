@@ -5,7 +5,7 @@ import { DebounceInput, DebounceTextArea, Debounced } from "../src/index";
 
     <DebounceInput
       className={'some-class'}
-      onChange={(e: React.ChangeEvent<HTMLInputElement>) => {}}
+      onInput={(e: React.ChangeEvent<HTMLInputElement>) => {}}
     />
 
 //  - usage with 'textarea':
@@ -17,14 +17,14 @@ import { DebounceInput, DebounceTextArea, Debounced } from "../src/index";
       element={'textarea'}
       rows={1}
       cols={2}
-      onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => {}}
+      onInput={(e: React.ChangeEvent<HTMLTextAreaElement>) => {}}
     />
 
-//  - usage with custom element that has 'value' and 'onChange' props:
+//  - usage with custom element that has 'value' and 'onInput' props:
 
     interface MyComponentProps {
       value?: string | number;
-      onChange: React.ChangeEventHandler<MyComponent>;
+      onInput: React.ChangeEventHandler<MyComponent>;
       
       myCustomProp: number; 
     }
@@ -37,6 +37,6 @@ import { DebounceInput, DebounceTextArea, Debounced } from "../src/index";
       element={MyComponent}
       myCustomProp={1}         // OK, myCustomProp will be passed down to MyComponent
       // myInvalidCustomProp={2}  // Error, there is no myInvalidCustomProp in MyComponentProps
-      onChange={(e: React.ChangeEvent<MyComponent>) => {}}
+      onInput={(e: React.ChangeEvent<MyComponent>) => {}}
     />
  
